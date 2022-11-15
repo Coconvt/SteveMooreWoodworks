@@ -1,17 +1,21 @@
 body{
-    background-color: #ebe9e7;
+    background-color: blanchedalmond;
 }
 
 .navbar {
-    background-color: #968770;
+    background-color: #e7cfb4;
 }
 
 .order-btn{
-    background-color: #79a2b3;
+    background-color: #e7b6b4;
+    border-color: #563232;
+    border-style: inset;
+    border-width: 2px;
+    font-weight: bold;
 }
 
 .order-btn:hover{
-    background-color: #b3d9de;
+    background-color: #ff8c91;
 }
 
 #order-disabled{
@@ -23,7 +27,7 @@ body{
     bottom: 0;
     width: 100%;
     height: 200px;
-    background-color: #968770;
+    background-color: #e7cfb4;
 }
 
 .footer-img{
