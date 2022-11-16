@@ -7,43 +7,40 @@ body{
 }
 
 .order-btn{
-    background-color: #e7b6b4;
+    background-color: #ff8c91;
     border-color: #563232;
-    border-style: inset;
-    border-width: 2px;
+    border-style: outset;
+    border-width: 3px;
     font-weight: bold;
 }
 
 .order-btn:hover{
-    background-color: #ff8c91;
+    background-color: #e7b6b4;
+    border-color: #563232;
+    border-style: inset;
+    border-width: 3px;
+    font-weight: bold;
 }
 
 #order-disabled{
-    background-color: gray;
+    background-color: #e7b6b4;
+    border-color: #563232;
+    border-style: inset;
+    border-width: 3px;
+    font-weight: bold;
+    opacity: 100%;
 }
 
 .footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #e7cfb4;
 } 
 
 .footer-img{
-    width: 230px;
-    position: absolute;
+    width: 60%;
     right: 0;
-    bottom: 0;
-}
-
-.footer .col-sm-3{
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.footer .col-md-3{
-    margin-top: 16px;
-    margin-bottom: 16px;
+    top: 0;
 }
 
 .ratio-55x27{
@@ -57,7 +54,8 @@ body{
 }
 
 .instagram{
-    color: #4267B2;
+    color: rgb(254,218,117);
+    color: linear-gradient(90deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 25%, rgba(214,41,118,1) 50%, rgba(150,47,191,1) 75%, rgba(79,91,213,1) 100%);
     text-decoration: none;
 }
 
@@ -66,7 +64,15 @@ body{
     text-decoration: none;
 }
 
-.gallery-img{
+img.gallery-img{
     height: 30%;
     border-radius: 5%;
+}
+
+img#one{
+    width: 100%;
+}
+
+img#two{
+    width: 50%;
 }
