@@ -66,5 +66,6 @@ body{
 img.gallery-img{
     height: 325px;
     border-radius: 2%;
-    object-fit:cover;
+    object-fit: cover;
+    object-position: 50%;
 } 
