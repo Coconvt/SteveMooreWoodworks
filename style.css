@@ -82,3 +82,18 @@ img.summary{
 .form-control{
     width: 33%;
 }
+
+.contact-btn{
+    background-color: #ff8c91;
+    border-color: #563232;
+    border-style: outset;
+    border-width: 3px;
+    font-weight: bold;
+}
+.contact-btn:hover{
+    background-color: #e7b6b4;
+    border-color: #563232;
+    border-style: inset;
+    border-width: 3px;
+    font-weight: bold;
+}
