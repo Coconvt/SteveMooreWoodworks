@@ -6,6 +6,32 @@ body{
     background-color: #e7cfb4;
 }
 
+/*buttons */
+
+.gallery-btn{
+    background-color: #8ca9ff;
+    border-color: #323756;
+    border-style: outset;
+    border-width: 3px;
+    font-weight: bold;
+}
+
+.gallery-btn:hover{
+    background-color: #b4c2e7;
+    border-color: #323756;
+    border-style: inset;
+    border-width: 3px;
+    font-weight: bold;
+}
+
+.gallery-btn:active{
+    background-color: #b2dab1;
+    border-color: #365236;
+    border-style: outset;
+    border-width: 3px;
+    font-weight: bold;
+}
+
 .order-btn{
     background-color: #ff8c91;
     border-color: #563232;
@@ -62,6 +88,8 @@ body{
     opacity: 100%;
 }
 
+/*footer*/
+
 .footer{
     bottom: 0;
     width: 100%;
@@ -79,8 +107,17 @@ body{
     text-decoration: none;
 }
 
-.footer li{
-    
+.footer-social{
+    width: 3rem;
+    padding-bottom: .25rem;
+}
+
+.footer iframe{
+    padding-top: 1rem;
+}
+
+.footer h3{
+    padding-top: 1rem;
 }
 
 .bi-facebook{
@@ -98,6 +135,8 @@ body{
     padding-top: 1rem;
 }
 
+/*images*/
+
 img.gallery-img{
     height: 325px;
     border-radius: 2%;
@@ -110,11 +149,7 @@ img.summary{
     object-fit: cover;
 }
 
-.form-control{
-}
-
-
-
-.alert-size{
-    width: 33%;
+.homepage-gallery img{
+    width: 100%;
+    padding-top: 2rem;
 }
