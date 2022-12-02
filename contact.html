@@ -47,8 +47,16 @@
     </div>
   </nav>
 
+  <!--header-->
+  <div class="row">
+    <div class="container text-center">
+      <h1>Contact us today!</h1>
+      <hr>
+    </div>
+  </div>
+
   <!--contact form-->
-  <div class="container mt-3">
+  <div class="container mt-3 col-6">
     <form>
       <!--first name-->
       <div class="mb-3">
@@ -91,11 +99,25 @@
       </div>
       <!--submit-->
       <div class="mb-3">
-        <button class="btn contact-btn" id="submitButton">Submit</button>
+        <button type="button" class="btn contact-btn" id="submitButton">Submit</button>
       </div>
       <!--success alert-->
       <div id="success"></div>
     </form>
+  </div>
+
+  <!--contact information-->
+  <div class="container mt-3 col-6">
+    <div class="row">
+      <div class="container">
+        facebook
+      </div>
+    </div>
+    <div class="row">
+      <div class="container">
+        instagram
+      </div>
+    </div>
   </div>
 
   <script>
@@ -104,7 +126,7 @@
     const alert = (message, type) => {
       const wrapper = document.createElement('div')
       wrapper.innerHTML = [
-        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `<div class="alert alert-${type} alert-dismissible alert-size" role="alert">`,
         `   <div>${message}</div>`,
         '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
         '</div>'
