@@ -134,9 +134,3 @@ img.summary{
     width: 100%;
     padding-top: 2rem;
 }
-
-* {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  }
