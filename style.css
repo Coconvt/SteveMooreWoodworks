@@ -6,6 +6,10 @@ body{
     background-color: #e7cfb4;
 }
 
+.header{
+    margin: 0px;
+}
+
 /*buttons */
 
 .gallery-btn{
@@ -84,6 +88,7 @@ body{
     bottom: 0;
     width: 100%;
     background-color: #e7cfb4;
+    overflow-x: hidden;
 } 
 
 .footer-img{
@@ -129,3 +134,9 @@ img.summary{
     width: 100%;
     padding-top: 2rem;
 }
+
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
