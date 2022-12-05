@@ -20,16 +20,12 @@ body{
     background-color: #b4c2e7;
     border-color: #323756;
     border-style: inset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 .gallery-btn:active{
     background-color: #b2dab1;
     border-color: #365236;
     border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 .order-btn{
@@ -44,16 +40,12 @@ body{
     background-color: #e7b6b4;
     border-color: #563232;
     border-style: inset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 .order-btn:active{
     background-color: #b2dab1;
     border-color: #365236;
     border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 .contact-btn{
@@ -67,25 +59,23 @@ body{
     background-color: #e7b6b4;
     border-color: #563232;
     border-style: inset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 .contact-btn:active{
     background-color: #b2dab1;
     border-color: #365236;
     border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
 }
 
 #order-disabled{
     background-color: #e7b6b4;
     border-color: #563232;
     border-style: inset;
-    border-width: 3px;
-    font-weight: bold;
     opacity: 100%;
+}
+
+.homepage-gallery-btn{
+    position: center;
 }
 
 /*footer*/
@@ -120,28 +110,18 @@ body{
     padding-top: 1rem;
 }
 
-.bi-facebook{
-    color: #4267B2;
-    text-decoration: none;
-}
-
-.bi-instagram{
-    background: rgb(254,218,117);
-    background: linear-gradient(90deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 25%, rgba(214,41,118,1) 50%, rgba(150,47,191,1) 75%, rgba(79,91,213,1) 100%);
-    text-decoration: none;
-}
-
 /*images*/
 
 img.gallery-img{
-    height: 325px;
+    width: 100%;
+    height: 300px;
     border-radius: 2%;
     object-fit: cover;
     object-position: 50%;
 }
 
 img.summary{
-    height: 250px;
+    width: 100%;
     object-fit: cover;
 }
 
