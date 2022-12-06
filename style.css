@@ -1,7 +1,7 @@
 body {
   background-image: url(img/wood\ shavings.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
   color: black;
   font-size: 1.2rem;
@@ -182,7 +182,7 @@ h6 {
 img.gallery-img {
   width: 100%;
   height: 300px;
-  border-radius: 2%;
+  border-radius: 1rem;
   object-fit: cover;
   object-position: 50%;
 }
