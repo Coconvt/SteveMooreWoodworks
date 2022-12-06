@@ -42,6 +42,33 @@ h6 {
 
 /*buttons */
 
+.top-btn{
+  background-color: #8ca9ff;
+  border-color: #323756;
+  border-style: outset;
+  border-width: 3px;
+  font-weight: bold;
+}
+
+.top-btn:hover{
+  background-color: #b4c2e7;
+  border-color: #323756;
+  border-style: inset;
+}
+
+.top-btn:active{
+  background-color: #b2dab1;
+  border-color: #365236;
+  border-style: outset;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
 .gallery-btn {
   background-color: #8ca9ff;
   border-color: #323756;
