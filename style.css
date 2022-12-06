@@ -1,140 +1,167 @@
-body{
-    background-color: blanchedalmond;
+body {
+  background-image: url(img/wood\ shavings.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 .navbar {
-    background-color: #e7cfb4;
+  background-color: #e7cfb4;
+  font-family: "Libre Baskerville", serif;
 }
 
-.header{
-    margin: 0px;
+.header {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
 }
 
 /*buttons */
 
-.gallery-btn{
-    background-color: #8ca9ff;
-    border-color: #323756;
-    border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
+.gallery-btn {
+  background-color: #8ca9ff;
+  border-color: #323756;
+  border-style: outset;
+  border-width: 3px;
+  font-weight: bold;
 }
 
-.gallery-btn:hover{
-    background-color: #b4c2e7;
-    border-color: #323756;
-    border-style: inset;
+.gallery-btn:hover {
+  background-color: #b4c2e7;
+  border-color: #323756;
+  border-style: inset;
 }
 
-.gallery-btn:active{
-    background-color: #b2dab1;
-    border-color: #365236;
-    border-style: outset;
+.gallery-btn:active {
+  background-color: #b2dab1;
+  border-color: #365236;
+  border-style: outset;
 }
 
-.order-btn{
-    background-color: #ff8c91;
-    border-color: #563232;
-    border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
+.order-btn {
+  background-color: #ff8c91;
+  border-color: #563232;
+  border-style: outset;
+  border-width: 3px;
+  font-weight: bold;
 }
 
-.order-btn:hover{
-    background-color: #e7b6b4;
-    border-color: #563232;
-    border-style: inset;
+.order-btn:hover {
+  background-color: #e7b6b4;
+  border-color: #563232;
+  border-style: inset;
 }
 
-.order-btn:active{
-    background-color: #b2dab1;
-    border-color: #365236;
-    border-style: outset;
+.order-btn:active {
+  background-color: #b2dab1;
+  border-color: #365236;
+  border-style: outset;
 }
 
-.contact-btn{
-    background-color: #ff8c91;
-    border-color: #563232;
-    border-style: outset;
-    border-width: 3px;
-    font-weight: bold;
+.contact-btn {
+  background-color: #ff8c91;
+  border-color: #563232;
+  border-style: outset;
+  border-width: 3px;
+  font-weight: bold;
 }
-.contact-btn:hover{
-    background-color: #e7b6b4;
-    border-color: #563232;
-    border-style: inset;
-}
-
-.contact-btn:active{
-    background-color: #b2dab1;
-    border-color: #365236;
-    border-style: outset;
+.contact-btn:hover {
+  background-color: #e7b6b4;
+  border-color: #563232;
+  border-style: inset;
 }
 
-#order-disabled{
-    background-color: #e7b6b4;
-    border-color: #563232;
-    border-style: inset;
-    opacity: 100%;
+.contact-btn:active {
+  background-color: #b2dab1;
+  border-color: #365236;
+  border-style: outset;
 }
 
-.homepage-gallery-btn{
-    position: center;
+#order-disabled {
+  background-color: #e7b6b4;
+  border-color: #563232;
+  border-style: inset;
+  opacity: 100%;
+}
+
+.homepage-gallery-btn {
+  position: center;
 }
 
 /*footer*/
 
-.footer{
-    bottom: 0;
-    width: 100%;
-    background-color: #e7cfb4;
-    overflow-x: hidden;
-} 
-
-.footer-img{
-    width: 60%;
-    right: 0;
-    top: 0;
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #e7cfb4;
+  overflow-x: hidden;
 }
 
-.footer a{
-    color: black;
-    text-decoration: none;
+.footer-img {
+  width: 60%;
+  right: 0;
+  top: 0;
 }
 
-.footer-social{
-    width: 3rem;
-    padding-bottom: .25rem;
+.footer a {
+  color: black;
+  text-decoration: none;
 }
 
-.footer iframe{
-    margin-top: .5rem;
+.footer-social {
+  width: 3rem;
+  padding-bottom: 0.25rem;
 }
 
-.footer h3{
-    padding-top: 1rem;
+.footer iframe {
+  margin-top: 0.5rem;
+}
+
+.footer h3 {
+  padding-top: 1rem;
 }
 
 /*images*/
 
-img.gallery-img{
-    width: 100%;
-    height: 300px;
-    border-radius: 2%;
-    object-fit: cover;
-    object-position: 50%;
+img.gallery-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 2%;
+  object-fit: cover;
+  object-position: 50%;
 }
 
-img.summary{
-    width: 100%;
-    object-fit: cover;
+img.summary {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2%;
 }
 
-.homepage-gallery img{
-    width: 100%;
-    padding-top: 2rem;
+.homepage-gallery img {
+  width: 100%;
+  padding-top: 2rem;
+  border-radius: 2%;
 }
 
-.gallery-cta{
-    margin-top: 25%;
+.gallery-cta {
+  margin-top: 25%;
+}
+
+.background {
+  background-color: rgba(138, 138, 138, 0.5);
+  border-radius: 5%;
+  border-color: rgb(138, 138, 138);
+  border-width: 10px;
+  border-style: solid;
+}
+
+.background iframe{
+    border-radius: 5%;
 }
