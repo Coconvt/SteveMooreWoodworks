@@ -3,11 +3,28 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  color: black;
+  font-size: 1.2rem;
 }
 
 .navbar {
-  background-color: #e7cfb4;
+  background-color: rgba(138, 138, 138, 0.5);
   font-family: "Libre Baskerville", serif;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(138, 138, 138);
+  border-bottom-width: .2rem;
+}
+
+.background {
+  background-color: rgba(138, 138, 138, 0.5);
+  border-radius: 5rem;
+  border-color: rgb(138, 138, 138);
+  border-width: .2rem;
+  border-style: solid;
+}
+
+.background iframe{
+    border-radius: 5rem;
 }
 
 .header {
@@ -100,8 +117,11 @@ h6 {
 .footer {
   bottom: 0;
   width: 100%;
-  background-color: #e7cfb4;
+  background-color: rgba(138, 138, 138, 0.5);
   overflow-x: hidden;
+  border-top-style:solid;
+  border-top-color: rgb(138, 138, 138);
+  border-top-width: .2rem;
 }
 
 .footer-img {
@@ -121,7 +141,9 @@ h6 {
 }
 
 .footer iframe {
+  border-radius: 6px;
   margin-top: 0.5rem;
+  box-shadow: 5px 10px rgba(104, 104, 104, 0.5);
 }
 
 .footer h3 {
@@ -154,14 +176,8 @@ img.summary {
   margin-top: 25%;
 }
 
-.background {
-  background-color: rgba(138, 138, 138, 0.5);
-  border-radius: 5%;
-  border-color: rgb(138, 138, 138);
-  border-width: 10px;
-  border-style: solid;
-}
 
-.background iframe{
-    border-radius: 5%;
+hr{
+  border-top-width: 2px;
+  border-radius: 100%;
 }
