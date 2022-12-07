@@ -4,31 +4,36 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .navbar {
-  background-color: rgba(138, 138, 138, 0.5);
+  background-color: rgba(138, 138, 138, 0.8);
   font-family: "Libre Baskerville", serif;
-  border-bottom-style:solid;
+  border-bottom-style: solid;
   border-bottom-color: rgb(138, 138, 138);
-  border-bottom-width: .2rem;
+  border-bottom-width: 0.2rem;
 }
 
 .background {
-  background-color: rgba(138, 138, 138, 0.5);
+  background-color: rgba(138, 138, 138, 0.8);
   border-radius: 5rem;
   border-color: rgb(138, 138, 138);
-  border-width: .2rem;
+  border-width: 0.2rem;
   border-style: solid;
+  width: 100%;
 }
 
-.background iframe{
-    border-radius: 5rem;
+.background iframe {
+  border-radius: 5rem;
 }
 
 .header {
   margin: 0px;
+}
+
+label, .label{
+  font-family: "Libre Baskerville", serif; 
 }
 
 h1,
@@ -42,7 +47,7 @@ h6 {
 
 /*buttons */
 
-.top-btn{
+.top-btn {
   background-color: #8ca9ff;
   border-color: #323756;
   border-style: outset;
@@ -50,13 +55,13 @@ h6 {
   font-weight: bold;
 }
 
-.top-btn:hover{
+.top-btn:hover {
   background-color: #b4c2e7;
   border-color: #323756;
   border-style: inset;
 }
 
-.top-btn:active{
+.top-btn:active {
   background-color: #b2dab1;
   border-color: #365236;
   border-style: outset;
@@ -75,6 +80,7 @@ h6 {
   border-style: outset;
   border-width: 3px;
   font-weight: bold;
+  font-family: "Libre Baskerville", serif;
 }
 
 .gallery-btn:hover {
@@ -95,6 +101,7 @@ h6 {
   border-style: outset;
   border-width: 3px;
   font-weight: bold;
+  font-family: "Libre Baskerville", serif;
 }
 
 .order-btn:hover {
@@ -115,6 +122,7 @@ h6 {
   border-style: outset;
   border-width: 3px;
   font-weight: bold;
+  font-family: "Libre Baskerville", serif;
 }
 .contact-btn:hover {
   background-color: #e7b6b4;
@@ -144,11 +152,12 @@ h6 {
 .footer {
   bottom: 0;
   width: 100%;
-  background-color: rgba(138, 138, 138, 0.5);
+  background-color: rgba(138, 138, 138, 0.8);
   overflow-x: hidden;
-  border-top-style:solid;
+  border-top-style: solid;
   border-top-color: rgb(138, 138, 138);
-  border-top-width: .2rem;
+  border-top-width: 0.2rem;
+  font-family: "Libre Baskerville", serif;
 }
 
 .footer-img {
@@ -169,8 +178,9 @@ h6 {
 
 .footer iframe {
   border-radius: 6px;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   box-shadow: 5px 10px rgba(104, 104, 104, 0.5);
+  margin-left: 0.75rem;
 }
 
 .footer h3 {
@@ -179,12 +189,23 @@ h6 {
 
 /*images*/
 
-img.gallery-img {
-  width: 100%;
-  height: 300px;
+.bio-img {
+  width: 12.5rem;
+  height: 12.5rem;
   border-radius: 1rem;
   object-fit: cover;
   object-position: 50%;
+  margin: 1rem;
+  margin-top: 0rem;
+}
+
+img.gallery-img {
+  width: 100%;
+  height: 18.75rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  object-position: 50%;
+  margin-top: 1rem;
 }
 
 img.summary {
@@ -204,38 +225,47 @@ img.summary {
   margin-top: 10%;
 }
 
-
-hr{
+hr {
   border-top-width: 2px;
   border-radius: 100%;
 }
 
-.brag-list{
-  margin-left: 5rem;
+.brag-list {
+  text-align: center;
 }
 
-.carousel{
+.brag-list li {
+  list-style-type: none;
+}
+
+.carousel {
   width: 100%;
   object-fit: cover;
   border-radius: 1rem;
   margin-right: 1rem;
 }
 
-.carousel-item img{
+.carousel-item img {
   object-fit: cover;
   border-radius: 1rem;
   margin-right: 1rem;
   height: 350px;
 }
 
-a{
+a.summary {
+  color: #b4c2e7;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0.1rem 0.1rem #464d75;
+}
+
+a.summary:hover {
   color: #464d75;
   text-decoration: none;
   font-weight: bold;
+  text-shadow: 0.1rem 0.1rem #2e324d;
 }
 
-a:hover{
-  color: #563232;
-  text-decoration: none;
-  font-weight: bold;
+.bio-text {
+  font-size: 1.5rem;
 }

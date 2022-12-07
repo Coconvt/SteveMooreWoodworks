@@ -88,45 +88,52 @@
         </div>
         <!--summary-->
         <div class="row p-5">
-          <div class="col">
+          <div class="col-md">
             <h2>About us</h2>
             <hr />
-            <img src="img/shop.jpg" class="summary float-start imgshadow" />
-            <p class="summary"></p>
-            <h4>Beautiful Custom Cabinets Since 2014</h4>
-            <br />
-            <b>Steve Moore Woodworks</b> is in Gibson, TN and has been proudly
-            serving the surrounding area for almost a decade.
-            <br />
-            <br />
-            We work with residential and commercial customers to create the
-            custom cabinetry they have always dreamed of for any room.
-            <br />
-            <br />
-            Steve Moore and his team pride themselves in producing high quality
-            all wood cabinets at competitive prices. Our products have a diverse
-            offering of wood species and finishes. Blum hinges and drawer slides
-            bring durable functionality to our pieces. We appreciate all our
-            current and past customers and look forward to offering many more
-            years of excellent design and quality construction.
-            <br />
-            <br />
-            Are you ready to get started? Check out our
-            <a href="gallery-c.html">gallery</a> to view some of our past
-            projects and get design ideas. Do you already know what you want?
-            <a href="contact.html">Reach out</a> for a design collaboration!
+            <img
+              src="img/shop.jpg"
+              class="summary float-start imgshadow img-fluid"
+            />
+            <div class="container summary">
+              <h3>Beautiful Custom Cabinets Since 2014</h3>
+              <br />
+              <b>Steve Moore Woodworks</b> is in Gibson, TN and has been proudly
+              serving the surrounding area for almost a decade.
+              <br />
+              <br />
+              We work with residential and commercial customers to create the
+              custom cabinetry they have always dreamed of for any room.
+              <br />
+              <br />
+              Steve Moore and his team pride themselves in producing high
+              quality all wood cabinets at competitive prices. Our products have
+              a diverse offering of wood species and finishes. Blum hinges and
+              drawer slides bring durable functionality to our pieces. We
+              appreciate all our current and past customers and look forward to
+              offering many more years of excellent design and quality
+              construction.
+              <br />
+              <br />
+              Are you ready to get started? Check out our
+              <a href="gallery-c.html" class="summary">gallery</a> to view some
+              of our past projects and get design ideas. Do you already know
+              what you want?
+              <a href="contact.html" class="summary">Reach out</a> for a design
+              collaboration!
+            </div>
           </div>
         </div>
         <hr />
         <!--why choose smw-->
         <div class="row">
-          <h1>WHY CHOOSE US?</h1>
+          <h1 class="text-center">WHY CHOOSE US?</h1>
           <ul class="brag-list">
             <li><h5>Free estimates</h5></li>
             <li><h5>Competitive pricing</h5></li>
             <li><h5>Fully custom products</h5></li>
-            <li><h5>Family-owned and operated</h5></li>
             <li><h5>Years of satisfied customers</h5></li>
+            <li><h5>Family-owned and operated</h5></li>
           </ul>
         </div>
         <hr />
@@ -142,7 +149,7 @@
             >
           </div>
           <!--carousel-->
-          <div class="col-6">
+          <div class="col-md-6 mt-2">
             <div
               id="carouselIndicators"
               class="carousel slide"
@@ -169,24 +176,25 @@
                   data-bs-slide-to="2"
                   aria-label="Slide 3"
                 ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/cabinet5.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/cabinet5.jpg" class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="img/louis kitchen.png"
-                    class="d-block w-100"
-                    alt="..."
-                  />
+                  <img src="img/louis kitchen.png" class="d-block w-100" />
                 </div>
                 <div class="carousel-item">
-                  <img
-                    src="img/furniture3.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
+                  <img src="img/furniture3.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/furniture5.jpg" class="d-block w-100" />
                 </div>
               </div>
               <button
@@ -263,7 +271,7 @@
             <div class="col-sm-3">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1316.1171154415188!2d-88.84757444589893!3d35.875551909920205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887eab72edb5e7e7%3A0x1360b9a209caa997!2s202%20Hwy%2079%2C%20Humboldt%2C%20TN%2038343!5e0!3m2!1sen!2sus!4v1670009301061!5m2!1sen!2sus"
-                width="400px"
+                width="350px"
                 height="200px"
                 style="border: 0"
                 allowfullscreen="allow"
@@ -311,32 +319,7 @@
       </svg>
     </button>
 
-    <script>
-      let mybutton = document.getElementById("btn-back-to-top");
-
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      mybutton.addEventListener("click", backToTop);
-
-      function backToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-
+    <script src="scroll-to-top.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
