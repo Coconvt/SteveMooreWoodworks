@@ -188,9 +188,10 @@ img.gallery-img {
 }
 
 img.summary {
-  width: 100%;
+  width: 50%;
   object-fit: cover;
-  border-radius: 2%;
+  border-radius: 1rem;
+  margin-right: 1rem;
 }
 
 .homepage-gallery img {
@@ -200,11 +201,41 @@ img.summary {
 }
 
 .gallery-cta {
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 
 hr{
   border-top-width: 2px;
   border-radius: 100%;
+}
+
+.brag-list{
+  margin-left: 5rem;
+}
+
+.carousel{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.carousel-item img{
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  height: 350px;
+}
+
+a{
+  color: #464d75;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #563232;
+  text-decoration: none;
+  font-weight: bold;
 }
