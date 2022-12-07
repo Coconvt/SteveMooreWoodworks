@@ -269,3 +269,34 @@ a.summary:hover {
 .bio-text {
   font-size: 1.5rem;
 }
+
+.gallery-text{
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blanchedalmond;
+  }
+  
+  h1.summary {
+    margin-top: 2rem;
+  }
+
+  hr {
+    margin-bottom: 0rem;
+  }
+
+  img.summary {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .gallery-cta {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+}

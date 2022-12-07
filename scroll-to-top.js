@@ -18,3 +18,5 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//code from mdbootstrap.com (https://mdbootstrap.com/snippets/standard/mdbootstrap/2964350#js-tab-view)
