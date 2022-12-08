@@ -38,6 +38,17 @@ h6 {
   font-family: "Libre Baskerville", serif;
 }
 
+marquee {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+marquee.christmas-marq {
+  background-color: #165b33;
+  color: #bb252b;
+}
+
 /*navbar*/
 
 .navbar {
@@ -46,6 +57,8 @@ h6 {
   border-bottom-style: solid;
   border-bottom-color: rgb(138, 138, 138);
   border-bottom-width: 0.2rem;
+  margin-top: -.5rem;
+  padding-top: 0;
 }
 
 .navbar-toggler {
@@ -339,6 +352,8 @@ a.summary:hover {
 .gallery-text {
   margin-top: 1rem;
 }
+
+/* Sourced from https://code-boxx.com/text-over-image-hover-html-css/ */
 
 /* (A) WRAPPER */
 .fullwrap {
