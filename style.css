@@ -1,5 +1,6 @@
 body {
   background-image: url(img/wood\ shavings.png);
+  background-color: rgba(104, 104, 104, .8);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -401,7 +402,7 @@ a.summary:hover {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: blanchedalmond;
+    background-color: rgba(104, 104, 104, 1);
   }
 
   h1.summary {
