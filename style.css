@@ -400,7 +400,7 @@ a.summary:hover {
   opacity: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: rgba(104, 104, 104, 1);
   }
@@ -433,7 +433,18 @@ a.summary:hover {
   .fullcap {
     top: 1rem;
   }
+
+  .contact-btn{
+    margin-bottom: 1rem;
+  }
+
+  #success{
+    padding-bottom: 1rem;
+  }
 }
-@media only screen and (max-width: 992px) {
-    font-size: 1rem;
+
+@media only screen and (max-width: 1400px) {
+    .fullcap h3{
+      font-size: 1.2rem;
+    }
 }
